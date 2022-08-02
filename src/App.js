@@ -1,21 +1,31 @@
-import logo from './logo.png';
+
 import './App.css';
-import Designers from './components/designers/index.jsx';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from './pages';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Gallary from './pages/gallary';
+import Gallery from './components/gallery/index'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         <h1>Black Lotus Coalition</h1>
-        </p>
-      </header>
-			<body>
-				<Designers />
-			</body>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
+
+
 
 export default App;
