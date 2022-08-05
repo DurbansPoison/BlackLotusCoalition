@@ -2,7 +2,10 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
+	react:[
+	"version: detect",
+	]
   },
   extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:react/jsx-runtime'],
   parserOptions: {
