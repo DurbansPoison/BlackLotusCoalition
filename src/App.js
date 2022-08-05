@@ -1,15 +1,12 @@
-
+/* eslint-disable react/react-in-jsx-scope */
 import './App.css';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/NavBar';
 import Home from './pages';
 import About from './pages/about';
 import Contact from './pages/contact';
-import Gallary from './pages/gallary';
-import Gallery from './components/gallery/index'
-
-
+import Gallery from './pages/gallery';
 
 function App() {
   return (
@@ -24,8 +21,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
-
-
 
 export default App;

@@ -1,9 +1,10 @@
 import React from 'react';
+import Logo from './../logo.png';
 
 function Pages() {
   return (
     <div>
-      Pages
+      <Logo />
     </div>
   );
 }
