@@ -1,13 +1,12 @@
 /* eslint-disable react/jsx-no-duplicate-props */
-import React from 'react';
 import {
   Nav,
   NavLogo,
   NavLink,
   Bars,
-  NavMenu
   // NavBtn,
   // NavBtnLink,
+  NavMenu
 } from './NavBarElements';
 import style from './NavBar.css';
 import logo from './NavLogo.png';
