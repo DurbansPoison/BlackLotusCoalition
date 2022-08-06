@@ -82,10 +82,10 @@ export const NavBtnLink = styled(Link)`
     color: #808080;
   }
 `;
-
-// export const logo = styled(logo)`
-//   width: 100%;
-//   height: 100%;
-//   object-fit: cover;
-//   object-position: center;
-// `;
+export const img = styled.img`
+  max-size: 90%;
+`;
+export const NavTitle = styled.p`
+  font-size: 18px;
+  font-weight: bold;
+`;
