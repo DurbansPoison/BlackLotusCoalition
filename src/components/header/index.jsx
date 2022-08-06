@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../../logo.png';
+import logo from './Logo.png';
+import HeaderElements from './headerElements';
 function Header() {
   return (
     <div className="App">

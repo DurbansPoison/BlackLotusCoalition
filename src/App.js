@@ -7,10 +7,12 @@ import Home from './pages';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Gallery from './pages/gallery';
+import Header from './components/header';
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

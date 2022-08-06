@@ -9,13 +9,14 @@ import {
   // NavBtn,
   // NavBtnLink,
 } from './NavBarElements';
-import Logo from '../../logo.png';
+import style from './NavBar.css';
+import logo from './NavLogo.png';
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavLogo to="/">
-          <Logo />
+          <img src={logo} alt="logo" />
         </NavLogo>
         <Bars />
 

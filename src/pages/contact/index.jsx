@@ -8,7 +8,8 @@ const Contact = () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh'
-      }}>
+      }}
+    >
       {'>'}
       <a href="https://expample.com">
         <h1>Join the Movement.</h1>
