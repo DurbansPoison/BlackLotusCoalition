@@ -6,7 +6,7 @@ import Navbar from './components/NavBar';
 import Home from './pages';
 import About from './pages/about';
 import Contact from './pages/contact';
-import Designers from './pages/Designers';
+import Designers from './pages/designers';
 import Gallery from './pages/gallery';
 import Header from './components/header';
 
