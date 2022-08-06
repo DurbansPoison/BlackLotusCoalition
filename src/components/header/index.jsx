@@ -1,3 +1,5 @@
+import React from 'react';
+
 import HeaderElements from './headerElements';
 function Header() {
   return (
