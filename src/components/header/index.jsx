@@ -1,11 +1,14 @@
 import React from 'react';
-
-import HeaderElements from './headerElements';
+import NavBar from './../NavBar';
+import logo from './Logo.png';
+import { StyledImg, StyledTitle } from './HeaderElements';
 function Header() {
   return (
     <div className="App">
       <p>
-        <h1>Black Lotus Coalition</h1>
+        <StyledImg src={logo} alt="logo" className="logo" />
+        <StyledTitle>Black Lotus Coalition</StyledTitle>
+        <NavBar />
       </p>
     </div>
   );

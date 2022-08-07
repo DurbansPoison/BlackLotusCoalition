@@ -1,22 +1,21 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 import {
   Nav,
-  NavLogo,
   NavLink,
   Bars,
   // NavBtn,
   // NavBtnLink,
+  StyledTitle,
   NavMenu
 } from './NavBarElements';
-import style from './NavBar.css';
-import logo from './NavLogo.png';
+// import '.../fonts.css';
 const Navbar = () => {
   return (
-    <>
+    <div>
       <Nav>
-        <NavLogo to="/">
-          <img src={logo} alt="logo" />
-        </NavLogo>
+        <NavLink to="/">
+          <StyledTitle></StyledTitle>
+        </NavLink>
         <Bars />
 
         <NavMenu>
@@ -46,7 +45,7 @@ const Navbar = () => {
                 </NavBtn> */}
         </NavMenu>
       </Nav>
-    </>
+    </div>
   );
 };
 export default Navbar;

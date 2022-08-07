@@ -19,7 +19,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #222222;
 }
 
 @keyframes App-logo-spin {
@@ -29,4 +29,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'black-lotus';
+  src: local('black-lotus'), url(./fonts/black-lotus.otf) format('truetype');
 }

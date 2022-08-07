@@ -9,3 +9,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+/* @font-face {
+  font-family: 'black-lotus';
+  src: local('BlackLotus'), url(./fonts/black-lotus.otf) format('opentype');
+}
+p{
+	font-family: 'BlackLotus';
+} */

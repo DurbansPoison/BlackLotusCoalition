@@ -1,15 +1,20 @@
 import styled from 'styled-components';
 
-export const HeaderElements = styled.div`
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding: 0.5rem 0rem;
-  background-color: #fff;
-  color: black;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-  z-index: 12;
+export const StyledImg = styled.img`
+  display: inline-center;
+  align-self: center;
+  width: 400px;
 `;
-export const img = styled.img`
-  max-size: 20%;
+
+export const StyledTitle = styled.div`
+  font-size: 2.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  display: center;
+  padding: 1em;
+  background-color: #242424;
+  color: #ffffff;
+  box-shadow: 0 2px 2px 2px #131111;
+  z-index: 12;
 `;

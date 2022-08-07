@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'BlackLotus';
+	font-style: normal;
+	src: local('BlackLotus') url('./black-lotus.otf') type('opentype');
+};
+
+#StyledTitle {
+	font-family: 'BlackLotus';
+};
+
+#Nav {
+	font-family: 'BlackLotus';
+};
