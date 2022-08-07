@@ -1,9 +1,9 @@
 import React from 'react';
-import { Wrapper, StyledP, StyledUrl } from './FooterElements';
+import { StyledWrapper, StyledP, StyledUrl } from './FooterElements';
 
 function Footer() {
   return (
-    <Wrapper>
+    <StyledWrapper>
       <StyledP>
         Designed, Developed, And Maintained By:
         <StyledUrl
@@ -14,7 +14,7 @@ function Footer() {
           @DurbanPoisonPew
         </StyledUrl>
       </StyledP>
-    </Wrapper>
+    </StyledWrapper>
   );
 }
 

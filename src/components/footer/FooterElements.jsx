@@ -26,3 +26,11 @@ export const StyledUrl = styled.a`
   align-item: center;
   font-size: 1em;
 `;
+export const StyledWrapper = styled.div`
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+  background: #242424;
+  color: #ffffff;
+  margin-top: 10px;
+`;
