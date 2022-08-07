@@ -8,7 +8,7 @@ import Contact from './pages/contact';
 import Designers from './pages/designers';
 import Gallery from './pages/gallery';
 import Header from './components/header';
-
+import Footer from './components/footer';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
